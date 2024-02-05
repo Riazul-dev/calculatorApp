@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .calculator{
+        @apply bg-rose-400 p-4 rounded-md outline outline-pink-300 shadow-[0_1px_6px_5px_rgb(0,0,0)]
+    }
+    input{
+        @apply w-full rounded-md px-4 text-2xl text-right py-4 shadow-inner shadow-current bg-black/70 text-white tracking-wider border-2 border-pink-200  
+    }
+    .buttons{
+        @apply grid grid-cols-4 gap-2
+    }
+    button{
+        @apply active:translate-x-1 duration-300 
+    }
+    .number{
+        @apply bg-green-300 rounded-md px-2 py-4 text-2xl shadow-inner shadow-current text-pink-800 font-semibold border border-slate-400
+    }
+    .operator{
+        @apply bg-slate-300 rounded-md px-2 py-4 text-2xl shadow-inner  shadow-current text-pink-800 font-semibold border border-slate-400
+    }
+}
