@@ -1,7 +1,10 @@
-# Calculator App with ReactJs and Tailwind CSS
+# Calculator App with ReactJs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Author "Riazul Karim"
 
-Currently, two official plugins are available:
+<h3>Used hooks</h3>
+<li>useState</li>
+
+<h3>Styled with Tailwind CSS</h3>
 
 
